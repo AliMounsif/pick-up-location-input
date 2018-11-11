@@ -1,0 +1,134 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:#eee
+}
+.slider{
+    height:400px;
+    width:100%;
+    background: url('img/lp-hero-gb-v2.jpg') no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content{
+    height:1000px;
+    position: relative;
+    width:100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #555;
+    border:5px solid #fff;
+}
+.searchBox{
+    position: relative;
+    margin-top:-240px;
+    background: #F3CE56;
+    width:40%;
+    padding:2.5%;
+    height:540px;/*just to be coherent, not needed*/
+}
+.searchBox h2{
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-shadow: none;
+    padding-bottom: 10px;
+    padding: 0 0 15px;
+    color:#000;
+    text-align: left;
+    margin-top: 0;
+}
+.searchBox .autocomplete{
+    text-align: left;
+}
+.autocomplete label{
+    font-size:14px;
+    line-height: 30px;
+}
+.autocomplete .inputSearchContainer{
+    position: relative;
+}
+.autocomplete .inputSearchContainer input{
+    padding: 12px 8% 12px 2%;
+    width:90%;
+}
+.autocomplete .inputSearchContainer .loader{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+.autocomplete .inputSearchContainer .loader img{
+    height: 24px;
+    width: auto;
+}
+.searchResults{
+    background: #fff;
+    border-radius: 3px;
+    margin-top:-1px;
+    box-shadow:0 2px 2px rgba(0,0,0,0.4);
+    border: 1px solid #e6e6e6;
+    padding-left:0;
+    display: block;
+}
+.searchResults li{
+    list-style: none;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+    cursor:pointer;
+}
+.searchResults li:hover{
+    background:#dff6ff;
+}
+.searchResults li.noResults{
+    font-style:italic;
+    color:#989898;
+    padding:10px 9px;
+    cursor:default !important;
+}
+.searchResults li.noResults:hover{
+    background:none !important;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+.searchResults li a{
+    padding:10px 9px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#222;
+    text-decoration: none;
+    display: block;
+}
+.searchResults li a .locationBadge{
+    color:#fff;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 2px 10px 0 0;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 85%;
+}
+.searchResults li a div{
+    font-size:14px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.searchResults li a div .locationDescription{
+    font-size: 12px;
+    color:gray;
+    display: block;
+}
+
+@media screen and (max-width: 1099px) {
+    .searchBox{
+        width:90%;
+        margin-left:2.5%;
+    }
+}
