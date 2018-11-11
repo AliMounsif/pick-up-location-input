@@ -13,6 +13,5 @@ It is based on the same endpoint search as rentalcars.
 
 * install yarn in your pc
 * get in the project directory 
-* run:
-  yarn install 
-  yarn start
+* run: yarn install 
+* run: yarn start
