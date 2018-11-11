@@ -1,6 +1,8 @@
 ## pick-up-location-input
 
-This is a simple home page designed in style https://rentalcars.com for what concerns the input for the search for a location for the pick-up.
+This is a simple page with a search input designed in style https://rentalcars.com, the input is to search for a location for picking up your car.
+
+It is based on the same endpoint search as rentalcars.
 
 It is based on the same endpoint search as rentalcars.
 
