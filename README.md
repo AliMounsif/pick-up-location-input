@@ -4,8 +4,6 @@ This is a simple page with a search input designed in style https://rentalcars.c
 
 It is based on the same endpoint search as rentalcars.
 
-It is based on the same endpoint search as rentalcars.
-
 ## What I used
 
 * ReactJS
